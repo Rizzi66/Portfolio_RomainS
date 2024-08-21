@@ -1,0 +1,28 @@
+@import '../../utils/styles/variables.scss';
+
+.footer {
+    display: table-row;
+    text-align: center;
+    background-color: #F9F9F9;
+    position: relative;
+    padding: 15px;
+    height: 100px;//130px
+    &__link > a > img {
+        border: #000 solid 1px;
+        border-radius: 15px;
+        padding: 3px;
+        margin: 3px;
+        margin-top: 20px;
+        &:hover {
+            background-color: #00356666 ;
+        }
+    }
+    &__admin {
+        font-size: $font-size-12;
+        text-decoration: underline;
+    }
+    &__copyright {
+        font-size: $font-size-14;
+        margin-top: 5px;
+    }
+}

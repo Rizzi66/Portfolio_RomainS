@@ -1,0 +1,57 @@
+@import '../../utils/styles/variables.scss';
+
+.project {
+  width: 100%;
+  min-width: 400px;
+  background: #0035662f;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  z-index: 2;
+  &:hover {
+    box-shadow: 5px 5px 15px #00000086;
+    transform: translate(-2px, -2px);
+  }
+  &__name {
+    font-size: $font-size-20; 
+    font-weight: 400;
+    background-color: #00356622;
+    border-radius: 10px 10px 0 0; 
+  }
+  &__description {
+    text-align: left;
+    margin: 10px;
+    &::before {
+      content: "⮑";
+      display: inline-block;
+      padding-right: 5px;
+      transform: translateY(2px);
+    }
+  }
+  &__techno {
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    padding: 5px 20px 10px 0;
+    & > img {
+      height: 100%;
+      margin-left: 10px;
+      object-fit: contain;
+    }
+  }
+  &__image {
+    margin: auto;
+    height: 250px;
+    width: 95%;
+    object-fit: cover;
+    opacity: 0.9;
+  }
+  @media all and (max-width: 599px) {
+    min-width: 300px;
+    &__image {
+      height: 150px;
+    }
+    &__techno {
+      height: 20px;
+    }
+  }
+}

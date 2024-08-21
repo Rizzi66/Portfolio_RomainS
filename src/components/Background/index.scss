@@ -1,0 +1,65 @@
+@use 'sass:math';
+@import '../../utils/styles/variables.scss';
+
+$longeurHeader: 50px;
+$longueurY__header: 400px;
+$longueurX: 150px;
+$angle__header: math.atan(calc($longueurY__header / $longueurX));
+:root {
+  --longueurY__header: 400px;
+  --angle__header: -69.44395478041653deg;
+}
+
+.background {
+  position: absolute;
+  height: var(--longueurY__header);
+  width: 100%;
+  transform: translateY(-$longeurHeader);
+  //transition: height 100ms;
+  &__main {
+    position: absolute;
+    animation:slide 30s ease-in-out infinite alternate;
+    background-image: linear-gradient(var(--angle__header), #001D3D -100%, #001D3D 50%, #003566 50%, #00356600 80%);
+    bottom:0;
+    left:-15%;
+    opacity:.5;
+    right:-50%;
+    top:0;
+    z-index:-2;
+   // transition: background-image 100ms;
+    &::after {
+      content: "";
+      display: block;
+      transform: translateY(var(--longueurY__header));
+      width: 100%;
+      height: var(--longueurY__main);
+      background-image: linear-gradient(var(--angle__main), #00356600 20%, #003566 50%, #001D3D 50%, #001D3D 200%);
+      z-index: -2;
+      //transition: transform 100ms 1ms;
+    }
+  }
+  &__line2 {
+    animation-direction:alternate-reverse;
+    animation-duration:41s;
+  }
+  &__line3 {
+    animation-duration:53s;
+  }
+  &__gradientBottom {
+    position: absolute;
+    width: 100%;
+    height: var(--longueurY__main);
+    top:var(--longueurY__header);
+    z-index:-1;
+    background-image: linear-gradient(180deg, #F9F9F900 0%, #f9F9F9 100%);
+  }
+ }
+
+@keyframes slide {
+  0% {
+    transform:translateX(-10%);
+  }
+  100% {
+    transform:translateX(10%);
+  }
+}

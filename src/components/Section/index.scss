@@ -1,0 +1,31 @@
+@import '../../utils/styles/variables.scss';
+
+
+.section {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 30px 0 30px;
+  background: linear-gradient(270deg, #f9f9f943 0%, #f9f9f9 100%);
+  border-top: solid 5px #0035667f;
+  font-size: $font-size-18;
+
+  &__title {
+    margin-bottom: 30px;
+    font-family: "Kanit";
+    font-size: $font-size-24;
+    font-weight: 500;
+  }
+  &__content {
+    margin-bottom: 10px;
+  }
+  @media all and (max-width: 599px) {
+    font-size: $font-size-12;
+    padding: 10px 0 10px;
+    margin-bottom: 30px;
+    &__title {
+      margin-bottom: 20px;
+    }
+  }
+}
+

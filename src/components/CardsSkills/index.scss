@@ -1,0 +1,18 @@
+@import '../../utils/styles/variables.scss';
+
+.skills__content {
+  display: flex;
+  align-items: end;
+  margin-bottom: 10px;
+  .skills__name {
+    text-align: right;
+    width: 50%;
+    padding-right: 15px;
+    font-weight: 400;
+
+  }
+  .skills__image {
+    height: 40px;
+    object-fit: contain;
+  }
+}

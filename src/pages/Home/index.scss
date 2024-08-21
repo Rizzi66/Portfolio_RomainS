@@ -1,0 +1,51 @@
+@import '../../utils/styles/variables.scss';
+
+.home {
+  transform: translateY(-50px);
+  @media all and (max-width: 599px) {
+    transform: translateY(-100px);
+  }
+}
+
+.apropos {
+  width: 80%;
+  margin: auto;
+  &__text {
+    margin-bottom: 1em;
+  }
+  @media all and (max-width: 599px) {
+    width: 100%;
+  }
+}
+
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 4%;
+  grid-row-gap: 50px;
+  padding: 0 4%;
+  &__cat {
+    width: 100%;
+    min-width: 250px;
+    max-width: 450px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #0035662f 0%, #00356600 100%);
+    border-radius: 10px 10px 0 0;
+    .skills__title {
+      font-size: $font-size-22;  
+      font-weight: 400;
+      margin-bottom: 20px;
+      background-color: #00356622;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+  @media all and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media all and (max-width: 599px) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+    padding: 0;
+  }
+}

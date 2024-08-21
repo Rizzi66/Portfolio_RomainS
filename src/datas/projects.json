@@ -1,0 +1,161 @@
+[
+	{
+		"id": "1",
+		"title": "Booki",
+		"image": "https://i.ibb.co/njxpcXq/Booki.png",
+		"github": {
+			"link": "https://github.com/Rizzi66/Projet2_HTMLCSS",
+			"page": "https://rizzi66.github.io/Projet2_HTMLCSS/"
+		},
+		"techno": [
+			{
+				"id": "1",
+				"name": "HTML",
+				"image": "https://i.ibb.co/7JM02ry/HTML.png"
+			},
+			{
+				"id": "2",
+				"name": "CSS",
+				"image": "https://i.ibb.co/kQCZ2y2/CSS.png"
+			}
+		],
+		"competances": [
+			{
+				"id": "1",
+				"description": "Site web responsive"
+			}
+		],
+		"description": "Création de la page d'accueil d'une agence de voyage"
+	},
+	{
+		"id": "2",
+		"title": "Sophie Bluel - Architecte d'intérieur",
+		"image": "https://i.ibb.co/b7n1X9Q/Sophie-Bluel.png",
+		"github": {
+			"link": "https://github.com/Rizzi66/Projet3_JavaScript"
+		},
+		"techno": [
+			{
+				"id": "1",
+				"name": "HTML",
+				"image": "https://i.ibb.co/7JM02ry/HTML.png"
+			},
+			{
+				"id": "2",
+				"name": "CSS",
+				"image": "https://i.ibb.co/kQCZ2y2/CSS.png"
+			},
+			{
+				"id": "3",
+				"name": "JavaScript",
+				"image": "https://image.noelshack.com/fichiers/2024/28/6/1720860295-javascript.png"
+			}
+		],
+		"competances": [
+			{
+				"id": "1",
+				"description": "affichage d'éléments de manière dynamique"
+			}
+		],
+		"description": "Ajouts de filtres de recherches et de photos via un affichage dynamique"
+	},
+	{
+		"id": "3",
+		"title": "Nina Carducci - Photographe",
+		"image": "https://i.ibb.co/6N1fp8m/Nina-Carducci.png",
+		"github": {
+			"link": "https://github.com/Rizzi66/Projet4_Optimisation",
+			"page": "https://rizzi66.github.io/Projet4_Optimisation/"
+		},
+		"techno": [
+			{
+				"id": "1",
+				"name": "jQuery",
+				"image": "https://i.ibb.co/NVRGHCb/jQuery.png"
+			}
+		],
+		"competances": [
+			{
+				"id": "1",
+				"description": "correction de bug"
+			},
+			{
+				"id": "2",
+				"description": "optimisation du SEO et de l'accessibilité"
+			}
+		],
+		"description": "Modification du code pour des problèmes de performances + optimisation du SEO"
+	},
+	{
+		"id": "4",
+		"title": "Kasa",
+		"image": "https://i.ibb.co/WfbVyZs/Kasa.png",
+		"github": {
+			"link": "https://github.com/Rizzi66/Projet5_React"
+		},
+		"techno": [
+			{
+				"id": "1",
+				"name": "JavaScript",
+				"image": "https://image.noelshack.com/fichiers/2024/28/6/1720860295-javascript.png"
+			},
+			{
+				"id": "2",
+				"name": "React",
+				"image": "https://image.noelshack.com/fichiers/2024/28/6/1720860296-react.png"
+			},
+			{
+				"id": "3",
+				"name": "Sass",
+				"image": "https://i.ibb.co/mCDVRwC/Sass.png"
+			}
+		],
+		"competances": [
+			{
+				"id": "1",
+				"description": "déploiement complet d'une application React"
+			},
+			{
+				"id": "2",
+				"description": "création d'animation CSS"
+			}
+		],
+		"description": "Création d'une application React pour un site d'annonce d'hébergement"
+	},
+	{
+		"id": "5",
+		"title": "Mon Vieux Grimoire",
+		"image": "https://i.ibb.co/kQRHGtX/Mon-Vieux-Grimoire.png",
+		"github": {
+			"link": "https://github.com/Rizzi66/Projet6_Backend"
+		},
+		"techno": [
+			{
+				"id": "1",
+				"name": "NodeJS",
+				"image": "https://i.ibb.co/z4N5DnY/NodeJS.png"
+			},
+			{
+				"id": "2",
+				"name": "ExpressJS",
+				"image": "https://i.ibb.co/3F2TXfX/Express-JS.png"
+			},
+			{
+				"id": "3",
+				"name": "MongoDB",
+				"image": "https://i.ibb.co/DLsCgJ1/MongoDB.png"
+			}
+		],
+		"competances": [
+			{
+				"id": "1",
+				"description": "gestion des opérations CRUD"
+			},
+			{
+				"id": "2",
+				"description": "stockage des données de manière sécurisée"
+			}
+		],
+		"description": "Création du back-end d'un site de notation de livres"
+	}
+]

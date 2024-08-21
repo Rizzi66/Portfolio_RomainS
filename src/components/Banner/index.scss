@@ -1,0 +1,63 @@
+@import '../../utils/styles/variables.scss';
+
+.banner {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  transform: translateY(35px);
+  &__text {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 40px;
+    font-family: "Montserrat Alternates";
+    font-size: 1em;
+    color: #001D3D;
+    & > h2 {
+      font-family: "Kanit";
+      margin-top: 15px;
+      margin-left: 110px;
+      margin-bottom: 10px;
+    }
+    & > div {
+      margin-top: 10px;
+      margin-left: 120px;
+    }
+    .button-48 {
+      margin-left: 10px;
+    }
+  }
+  @media all and (max-width: 799px) {
+    height: 350px;
+    &__text {
+      & > * {
+        color: #F9F9F9;
+        text-shadow: 0 0 20px #001D3D;
+      }      
+    }
+  }
+  @media all and (max-width: 599px) {
+    transform: translateY(70px);
+    &__text {
+      font-size: 0.8em;   
+      & > h2 {
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-bottom: 0;
+      }
+      & > div {
+        margin-left: 30px;
+      }
+    }
+  }
+  @media all and (max-width: 349px) {
+    &__text {
+      margin-left: 21px;
+      
+    }
+  }
+}
+
+#titre {
+font-weight: 600;
+
+}
