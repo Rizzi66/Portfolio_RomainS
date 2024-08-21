@@ -26,11 +26,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           longueurY_main={2000}
         />
         <Routes>
-          <Route path="/Projet8_Portfolio/" element={<Home />} />
-          <Route path="/Projet8_Portfolio/projects" element={<Projects />} />
-          <Route path="/Projet8_Portfolio/cv" element={<CV />} />
-          <Route path="/Projet8_Portfolio/contact" element={<Contact />} />
-          <Route path="/Projet8_Portfolio/login" element={<Login />} />
+          <Route path="/Portfolio_RomainS/" element={<Home />} />
+          <Route path="/Portfolio_RomainS/projects" element={<Projects />} />
+          <Route path="/Portfolio_RomainS/cv" element={<CV />} />
+          <Route path="/Portfolio_RomainS/contact" element={<Contact />} />
+          <Route path="/Portfolio_RomainS/login" element={<Login />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

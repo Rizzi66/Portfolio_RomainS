@@ -13,10 +13,10 @@ function Header() {
     <header className='header'>
       <div className='size-container'>
         <nav className='header__nav'>
-          <NavLink to="/Projet8_Portfolio/" onClick={() => toggleBackground()} className='header__link'>Présentation</NavLink>
-          <NavLink to="/Projet8_Portfolio/projects" onClick={() => toggleBackground()} className='header__link'>Projets</NavLink>
+          <NavLink to="/Portfolio_RomainS/" onClick={() => toggleBackground()} className='header__link'>Présentation</NavLink>
+          <NavLink to="/Portfolio_RomainS/projects" onClick={() => toggleBackground()} className='header__link'>Projets</NavLink>
           <NavLink to={CV} target='_blank' onClick={() => toggleBackground()} className='header__link'>CV</NavLink>
-          <NavLink to="/Projet8_Portfolio/contact" onClick={() => toggleBackground()} className='header__link'>Contact</NavLink>
+          <NavLink to="/Portfolio_RomainS/contact" onClick={() => toggleBackground()} className='header__link'>Contact</NavLink>
         </nav>
       </div>
     </header>
